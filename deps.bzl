@@ -24,7 +24,7 @@ archive_dependencies = [
     {
         "name": "io_grpc_grpc_java",
         "patch_args": ["-p1"],
-        "patches": ["//third_party/io_grpc_grpc_java:7461ef983d.patch"],
+        "patches": ["@build_buildfarm//third_party/io_grpc_grpc_java:7461ef983d.patch"],
         "sha256": "11f2930cf31c964406e8a7e530272a263fbc39c5f8d21410b2b927b656f4d9be",
         "strip_prefix": "grpc-java-1.26.0",
         "urls": ["https://github.com/grpc/grpc-java/archive/v1.26.0.zip"],
